@@ -40,58 +40,64 @@
 
 .donut-segment1 {
     fill: transparent;
-    stroke: #4A4A4A;
+    stroke: #111;
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 0;
-    animation: hide 3.5s linear infinite;
+    animation: hide 3s linear infinite;
 }
 
 .donut-segment2 {
     fill: transparent;
-    stroke: #4A4A4A;
+    stroke: #111;
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 20;
+    animation: hide 3s linear 0.6s infinite;
 }
 
 .donut-segment3 {
     fill: transparent;
-    stroke: #4A4A4A;
+    stroke: #111;
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 40;
-    animation: hide 3.5s linear infinite;
+    animation: hide 3s linear 1.2s infinite;
 }
 
 .donut-segment4 {
     fill: transparent;
-    stroke: #4A4A4A;
+    /*    stroke: #111;*/
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 60;
-    animation: hide 3.5s linear infinite;
+    /*    animation: hide 3s linear 1.8s infinite;*/
 }
 
 .donut-segment5 {
     fill: transparent;
-    stroke: #4A4A4A;
+    /*    stroke: #111;*/
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 80;
-    animation: hide 3.5s linear infinite;
+    /*    animation: hide 3s linear 2.4s infinite;*/
 }
 
 @keyframes hide {
     0% {
+        opacity: 1;
+    }
+    25% {
         opacity: 0;
     }
-    20% {
-        opacity: 1;
+    50% {
+        opacity: 0;
     }
-    80% {
-        opacity: 1;
+
+    75% {
+        opacity: 0;
     }
+
     100% {
         opacity: 0;
     }
