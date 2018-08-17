@@ -1,0 +1,28 @@
+.circular {
+    animation: rotate 3.5s linear infinite;
+    height: 50px;
+    transform-origin: center center;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.donut-segment {
+    fill: transparent;
+    stroke: #4A4A4A;
+    stroke-width: 3;
+    stroke-dasharray: 20 80;
+    stroke-dashoffset: 0;
+    animation: move 3.5s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
