@@ -44,6 +44,7 @@
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 0;
+    animation: hide 3.5s linear infinite;
 }
 
 .donut-segment2 {
@@ -51,7 +52,7 @@
     stroke: #4A4A4A;
     stroke-width: 3;
     stroke-dasharray: 20 80;
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 20;
 }
 
 .donut-segment3 {
@@ -59,7 +60,8 @@
     stroke: #4A4A4A;
     stroke-width: 3;
     stroke-dasharray: 20 80;
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 40;
+    animation: hide 3.5s linear infinite;
 }
 
 .donut-segment4 {
@@ -67,7 +69,8 @@
     stroke: #4A4A4A;
     stroke-width: 3;
     stroke-dasharray: 20 80;
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 60;
+    animation: hide 3.5s linear infinite;
 }
 
 .donut-segment5 {
@@ -75,5 +78,21 @@
     stroke: #4A4A4A;
     stroke-width: 3;
     stroke-dasharray: 20 80;
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 80;
+    animation: hide 3.5s linear infinite;
+}
+
+@keyframes hide {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
