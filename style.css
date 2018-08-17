@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     margin: auto;
-
+    background-color:
 }
 
 .donut-segment {
@@ -18,11 +18,62 @@
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 0;
-    animation: move 3.5s linear infinite;
 }
 
 @keyframes rotate {
     100% {
         transform: rotate(360deg);
     }
+}
+
+
+.donut {
+    width: 50px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+.donut-segment1 {
+    fill: transparent;
+    stroke: #4A4A4A;
+    stroke-width: 3;
+    stroke-dasharray: 20 80;
+    stroke-dashoffset: 0;
+}
+
+.donut-segment2 {
+    fill: transparent;
+    stroke: #4A4A4A;
+    stroke-width: 3;
+    stroke-dasharray: 20 80;
+    stroke-dashoffset: 0;
+}
+
+.donut-segment3 {
+    fill: transparent;
+    stroke: #4A4A4A;
+    stroke-width: 3;
+    stroke-dasharray: 20 80;
+    stroke-dashoffset: 0;
+}
+
+.donut-segment4 {
+    fill: transparent;
+    stroke: #4A4A4A;
+    stroke-width: 3;
+    stroke-dasharray: 20 80;
+    stroke-dashoffset: 0;
+}
+
+.donut-segment5 {
+    fill: transparent;
+    stroke: #4A4A4A;
+    stroke-width: 3;
+    stroke-dasharray: 20 80;
+    stroke-dashoffset: 0;
 }
