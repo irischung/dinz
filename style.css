@@ -1,6 +1,6 @@
 .circular {
-    animation: rotate 3.5s linear infinite;
-/*
+    animation: rotate 3.5s infinite;
+    /*
     height: 50px;
     transform-origin: center center;
     width: 50px;
@@ -41,7 +41,6 @@
 }
 */
 
-
 /*
 .donut-segment1 {
     fill: transparent;
@@ -75,20 +74,20 @@
 
 .donut-segment4 {
     fill: transparent;
-/*    stroke: #111;*/
+    /*    stroke: #111;*/
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 60;
-/*    animation: hide 3s linear 1.8s infinite;*/
+    /*    animation: hide 3s linear 1.8s infinite;*/
 }
 
 .donut-segment5 {
     fill: transparent;
-/*    stroke: #111;*/
+    /*    stroke: #111;*/
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 80;
-/*    animation: hide 3s linear 2.4s infinite;*/
+    /*    animation: hide 3s linear 2.4s infinite;*/
 }
 
 /*
