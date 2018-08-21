@@ -21,8 +21,8 @@
 */
 
 .loader {
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
     border: 3px solid #FFFFFF;
     border-radius: 50%;
     border-top-color: #000000;
@@ -50,7 +50,7 @@
     margin-left: -10px;
     margin-top: -10px;
     position: absolute;
-    top: 40%;
+    top: 38%;
     width: 60px;
 }
 
@@ -94,6 +94,7 @@
 
 }
 
+/*
 .circular {
     animation: rotate 3.5s infinite;
 
@@ -122,7 +123,7 @@
         transform: rotate(360deg);
     }
 }
-
+*/
 
 .donut {
     width: 76px;
@@ -134,7 +135,27 @@
     position: absolute;
     animation: spin 2s linear infinite;
     -webkit-animation: spin 2s linear infinite;
+    left: 44%;
+    top: 20%;
+
 }
+
+
+.donutOutline {
+    width: 76px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
+    left: 44%;
+    top: 20%;
+
+}
+
 
 .donut-segment1 {
     fill: transparent;
@@ -145,39 +166,13 @@
 
 }
 
-@-webkit-keyframes spin2 {
-
-    /*
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-*/
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes spin2 {
-    /*
-
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-*/
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-
-}
 
 
 
 
 
+
+/*
 .donut-segment2 {
     fill: transparent;
     opacity: 0;
@@ -221,8 +216,9 @@
     animation: hide 2s linear 1.6s infinite;
     -webkit-animation: hide 2s linear 1.6s infinite;
 }
+*/
 
-
+/*
 @-webkit-keyframes hide {
     0% {
         opacity: 1;
@@ -262,3 +258,4 @@
         opacity: 0;
     }
 }
+*/
