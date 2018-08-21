@@ -23,7 +23,7 @@
 .loader {
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
-    border: 1px solid #FFFFFF;
+    border: 4px solid #FFFFFF;
     border-radius: 50%;
     border-top-color: #000000;
     box-sizing: border-box;
@@ -158,7 +158,7 @@
 .donut-segment1 {
     fill: #000;
     stroke: #000;
-    stroke-width: 4;
+    stroke-width: 6;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 0;
 
