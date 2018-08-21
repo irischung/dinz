@@ -37,6 +37,23 @@
     width: 32px;
 }
 
+.loader2 {
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    border: 3px solid #d8d8d8;
+    border-radius: 50%;
+    border-top-color: #2C2C2C;
+    box-sizing: border-box;
+    content: '';
+    height: 32px;
+    left: 44%;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    top: 40%;
+    width: 32px;
+}
+
 /*
 .loader {
     border: 16px solid #9B9B9B;
