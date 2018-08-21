@@ -21,8 +21,8 @@
 */
 
 .loader {
-    -webkit-animation: spin 12s linear infinite;
-    animation: spin 12s linear infinite;
+    -webkit-animation: spin 16s linear infinite;
+    animation: spin 16s linear infinite;
     border: 4px solid #CCCCCC;
     border-radius: 50%;
     border-top-color: #2C2C2C;
@@ -79,7 +79,7 @@
 
 .circular {
     animation: rotate 3.5s infinite;
-    /*
+
     height: 50px;
     transform-origin: center center;
     width: 50px;
@@ -90,7 +90,6 @@
     right: 0;
     margin: auto;
     background-color:
-*/
 }
 
 .donut-segment {
@@ -108,7 +107,6 @@
 }
 
 
-/*
 .donut {
     width: 50px;
     height: 100px;
@@ -118,9 +116,7 @@
     right: 0;
     position: absolute;
 }
-*/
 
-/*
 .donut-segment1 {
     fill: transparent;
     stroke: #111;
@@ -128,10 +124,9 @@
     stroke-dasharray: 20 80;
     stroke-dashoffset: 0;
     animation: hide 3s linear infinite;
+    -webkit-animation: hide 3s linear infinite;
 }
-*/
 
-/*
 .donut-segment2 {
     fill: transparent;
     stroke: #111;
@@ -139,8 +134,8 @@
     stroke-dasharray: 20 80;
     stroke-dashoffset: 20;
     animation: hide 3s linear 0.6s infinite;
+    -webkit-animation: hide 3s linear 0.6s infinite;
 }
-*/
 
 .donut-segment3 {
     fill: transparent;
@@ -149,27 +144,50 @@
     stroke-dasharray: 20 80;
     stroke-dashoffset: 40;
     animation: hide 3s linear 1.2s infinite;
+    -webkit-animation: hide 3s linear 1.2s infinite;
 }
 
 .donut-segment4 {
     fill: transparent;
-    /*    stroke: #111;*/
+    stroke: #111;
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 60;
-    /*    animation: hide 3s linear 1.8s infinite;*/
+    animation: hide 3s linear 1.8s infinite;
+    -webkit-animation: hide 3s linear 1.8s infinite;
 }
 
 .donut-segment5 {
     fill: transparent;
-    /*    stroke: #111;*/
+    stroke: #111;
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 80;
-    /*    animation: hide 3s linear 2.4s infinite;*/
+    animation: hide 3s linear 2.4s infinite;
+    -webkit-animation: hide 3s linear 2.4s infinite;
 }
 
-/*
+
+@-webkit-keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 @keyframes hide {
     0% {
         opacity: 1;
@@ -188,4 +206,4 @@
     100% {
         opacity: 0;
     }
-}*/
+}
