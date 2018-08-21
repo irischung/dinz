@@ -149,8 +149,6 @@
     left: 0;
     right: 0;
     position: absolute;
-    animation: spin 2s linear infinite;
-    -webkit-animation: spin 2s linear infinite;
     left: 44%;
     top: 20%;
 
