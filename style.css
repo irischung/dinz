@@ -119,6 +119,7 @@
 
 .donut-segment1 {
     fill: transparent;
+    opacity: 0;
     stroke: #111;
     stroke-width: 3;
     stroke-dasharray: 20 80;
@@ -129,6 +130,7 @@
 
 .donut-segment2 {
     fill: transparent;
+    opacity: 0;
     stroke: #111;
     stroke-width: 3;
     stroke-dasharray: 20 80;
@@ -139,6 +141,7 @@
 
 .donut-segment3 {
     fill: transparent;
+    opacity: 0;
     stroke: #111;
     stroke-width: 3;
     stroke-dasharray: 20 80;
@@ -149,6 +152,7 @@
 
 .donut-segment4 {
     fill: transparent;
+    opacity: 0;
     stroke: #111;
     stroke-width: 3;
     stroke-dasharray: 20 80;
@@ -159,6 +163,7 @@
 
 .donut-segment5 {
     fill: transparent;
+    opacity: 0;
     stroke: #111;
     stroke-width: 3;
     stroke-dasharray: 20 80;
