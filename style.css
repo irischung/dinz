@@ -139,7 +139,7 @@
 .donut-segment1 {
     fill: transparent;
     stroke: #000;
-    stroke-width: 3;
+    stroke-width: 2;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 0;
 
