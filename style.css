@@ -133,8 +133,8 @@
     left: 0;
     right: 0;
     position: absolute;
-    animation: spin 2s linear infinite;
-    -webkit-animation: spin 2s linear infinite;
+    animation: spin 4s linear infinite;
+    -webkit-animation: spin 4s linear infinite;
     left: 44%;
     top: 20%;
 
@@ -158,8 +158,8 @@
 .donut-segment1 {
     fill: #000;
     stroke: #000;
-    stroke-width: 6;
-    stroke-dasharray: 20 80;
+    stroke-width: 4;
+    stroke-dasharray: 10 90;
     stroke-dashoffset: 0;
 
 }
