@@ -21,8 +21,8 @@
 */
 
 .loader {
-    -webkit-animation: spin 2.2s linear infinite;
-    animation: spin 2.2s linear infinite;
+    -webkit-animation: spin 2.1s linear infinite;
+    animation: spin 2.1s linear infinite;
     border: 5px solid #E8E8E8;
     border-radius: 50%;
     border-top-color: #575757;
