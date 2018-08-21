@@ -21,11 +21,11 @@
 */
 
 .loader {
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+    -webkit-animation: spin 2.2s linear infinite;
+    animation: spin 2.2s linear infinite;
     border: 5px solid #E8E8E8;
     border-radius: 50%;
-    border-top-color: #4A4A4A;
+    border-top-color: #575757;
     box-sizing: border-box;
     content: '';
     height: 54px;
