@@ -23,7 +23,7 @@
 .loader {
     -webkit-animation: spin 16s linear infinite;
     animation: spin 16s linear infinite;
-    border: 4px solid #CCCCCC;
+    border: 4px solid #FFF;
     border-radius: 50%;
     border-top-color: #2C2C2C;
     box-sizing: border-box;
@@ -173,10 +173,10 @@
         opacity: 1;
     }
     25% {
-        opacity: 0.4;
+        opacity: 0.2;
     }
     50% {
-        opacity: 0.2;
+        opacity: 0;
     }
 
     75% {
@@ -193,10 +193,10 @@
         opacity: 1;
     }
     25% {
-        opacity: 0.4;
+        opacity: 0.2;
     }
     50% {
-        opacity: 0.2;
+        opacity: 0;
     }
 
     75% {
