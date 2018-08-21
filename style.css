@@ -21,20 +21,20 @@
 */
 
 .loader {
-    -webkit-animation: spin 1s linear infinite;
-    animation: spin 1s linear infinite;
-    border: 4px solid #E8E8E8;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    border: 5px solid #E8E8E8;
     border-radius: 50%;
     border-top-color: #4A4A4A;
     box-sizing: border-box;
     content: '';
-    height: 44px;
+    height: 54px;
     left: 44%;
     margin-left: -10px;
     margin-top: -10px;
     position: absolute;
     top: 50%;
-    width: 44px;
+    width: 54px;
 }
 
 /*
@@ -124,8 +124,8 @@
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 0;
-    animation: hide 3s linear infinite;
-    -webkit-animation: hide 1s linear infinite;
+    animation: hide 2s linear infinite;
+    -webkit-animation: hide 2s linear infinite;
 }
 
 .donut-segment2 {
@@ -135,8 +135,8 @@
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 20;
-    animation: hide 3s linear 0.6s infinite;
-    -webkit-animation: hide 1s linear 0.2s infinite;
+    animation: hide 2s linear 0.4s infinite;
+    -webkit-animation: hide 2s linear 0.4s infinite;
 }
 
 .donut-segment3 {
@@ -146,8 +146,8 @@
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 40;
-    animation: hide 3s linear 1.2s infinite;
-    -webkit-animation: hide 1s linear 0.4s infinite;
+    animation: hide 2s linear 0.8s infinite;
+    -webkit-animation: hide 2s linear 0.8s infinite;
 }
 
 .donut-segment4 {
@@ -157,8 +157,8 @@
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 60;
-    animation: hide 3s linear 1.8s infinite;
-    -webkit-animation: hide 1s linear 0.6s infinite;
+    animation: hide 2s linear 1.2s infinite;
+    -webkit-animation: hide 2s linear 1.2s infinite;
 }
 
 .donut-segment5 {
@@ -168,8 +168,8 @@
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 80;
-    animation: hide 3s linear 2.4s infinite;
-    -webkit-animation: hide 1s linear 0.8s infinite;
+    animation: hide 2s linear 1.6s infinite;
+    -webkit-animation: hide 2s linear 1.6s infinite;
 }
 
 
