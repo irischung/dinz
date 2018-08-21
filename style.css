@@ -23,9 +23,9 @@
 .loader {
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
-    border: 3px solid #E8E8E8;
+    border: 3px solid #FFFFFF;
     border-radius: 50%;
-    border-top-color: #575757;
+    border-top-color: #000000;
     box-sizing: border-box;
     content: '';
     height: 32px;
