@@ -156,9 +156,9 @@
 
 
 .donut-segment1 {
-    fill: #FFF;
+    fill: #000;
     stroke: #000;
-    stroke-width: 1;
+    stroke-width: 4;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 0;
 
