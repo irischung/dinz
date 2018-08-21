@@ -126,8 +126,8 @@
 */
 
 .donut {
-    width: 42px;
-    height: 42px;
+    width: 76px;
+    height: 76px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -142,8 +142,8 @@
 
 
 .donutOutline {
-    width: 42px;
-    height: 42px;
+    width: 76px;
+    height: 76px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -156,9 +156,9 @@
 
 
 .donut-segment1 {
-    fill: transparent;
+    fill: #FFF;
     stroke: #000;
-    stroke-width: 2;
+    stroke-width: 1;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 0;
 
