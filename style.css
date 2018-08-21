@@ -68,12 +68,12 @@
 */
 
 @-webkit-keyframes spin {
-    /*
+
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-*/
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -81,12 +81,12 @@
 }
 
 @keyframes spin {
-    /*
+
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-*/
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -125,25 +125,61 @@
 
 
 .donut {
-    width: 50px;
+    width: 76px;
     height: 100px;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     position: absolute;
+    animation: spin2 2s linear infinite;
+    -webkit-animation: spin2 2s linear infinite;
 }
 
 .donut-segment1 {
     fill: transparent;
-    opacity: 0;
-    stroke: #4A4A4A;
+    stroke: #000;
     stroke-width: 3;
     stroke-dasharray: 20 80;
     stroke-dashoffset: 0;
-    animation: hide 2s linear infinite;
-    -webkit-animation: hide 2s linear infinite;
+    /*
+    animation: spin2 2s linear infinite;
+    -webkit-animation: spin2 2s linear infinite;
+*/
 }
+
+@-webkit-keyframes spin2 {
+
+    /*
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+*/
+    100% {
+        -webkit-transform: rotate(360 59 71);
+        transform: rotate(360deg 59 71);
+    }
+}
+
+@keyframes spin2 {
+    /*
+
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+*/
+    100% {
+        -webkit-transform: rotate(360 59 71);
+        transform: rotate(360deg);
+    }
+
+}
+
+
+
+
 
 .donut-segment2 {
     fill: transparent;
