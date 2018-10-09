@@ -22,8 +22,19 @@
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 3px;
+    width: 640px;
+}
 
+.container div {
+    width: 40px;
+    font-size: 2px;
+
+}
+
+.container div a {
+    text-align: center;
 }
 
 .container2 {
@@ -35,7 +46,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 3px;
-    width: 400px;
+    width: 500px;
     height: auto;
 
 }
