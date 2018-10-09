@@ -26,6 +26,11 @@
 
 }
 
+.container2 {
+    display: flex;
+
+}
+
 .loader {
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
