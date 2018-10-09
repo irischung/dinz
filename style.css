@@ -31,6 +31,19 @@
 
 }
 
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3px;
+    width: 400px;
+    height: auto;
+
+}
+
+.container3 svg {
+    flex-direction: row;
+}
+
 .loader {
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
